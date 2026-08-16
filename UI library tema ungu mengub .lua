@@ -2,7 +2,8 @@
   NovaUI v2 — Single-file Roblox UI Library
   Gabungan: NovaUI_Full + NovaUI_Icons + NovaUI_Bubble
 
-  local NovaUI = loadstring(game:HttpGet("https://YOUR-URL/NovaUI.lua"))()
+  local NovaUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/aseumusu-design/UI-library-A2/refs/heads/main/UI%20library%20tema%20ungu%20mengub%20.lua"))()
+
   local Window = NovaUI:CreateWindow({ Title = "Nova Hub", Bubble = true })
   local tab = Window:AddTab({ Text = "Info", Icon = "Info" })
   tab:AddButton({ Text = "Hello", Icon = "Gun", Callback = function() print("hi") end })
